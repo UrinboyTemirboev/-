@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.zakaz{
+    height:80px;
+    font-size: 26px;
+    border: 2px #7a9c69 dashed;
+    line-height: 80px;
+    color:#7a9c69;
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+}
+.infoAboutZakaz{
+    width: 80%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.AboutZakaz{
+    padding: 10px;
+    border-right: 1px solid lightgrey;
+}
+.methodPay{
+    width: 80%;
+    margin: 25px auto;
+}
+.tableInfoAboutZakaz h2{
+    font-size: 18px;
+    width: 80%;
+    margin: 25px auto;
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 10px auto;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid lightgrey;
+}

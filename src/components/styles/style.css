@@ -1,0 +1,1662 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');*/
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* ------------------------------start Nav component styles------------------------------------ */
+.header {
+  height: 40px;
+  background-color: #ae3a3b;
+  width: 100%;
+  line-height: 40px;
+}
+.header-nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.header-nav h3 {
+  color: #fff;
+  font-size: 12px;
+}
+.header-nav1 h3{
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+
+}
+.header-nav ul .link {
+  padding: 0 10px;
+  text-decoration: none;
+  color: #fff;
+}
+/* -/-/-/-/-/-/-/-/-/-/-/-/-/-/- the end  Nav component styles-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-*/
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - start NavforTable styles - - - - - - - - - - - -  */
+.headerforTable{
+ width: 100%;
+ height: 40px;
+ background-color: #d44;
+ line-height: 40px;
+}
+.headerforTable .header-nav1 h3{
+
+}
+
+
+/* -/-/-/-/-/-/-/-/-/-/-/-/-/-/- the end  NavforTable styles-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-*/
+
+/*---------------------------- start NavforPhone styles----------------------------------- */
+/* -/-/-/-/-/-/-/-/-/-/-/-/-/-/- the end  NavforPhone styles-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-*/
+
+/*---------------------------- start component catalogs styles----------------------------------- */
+.catalog {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+.catalogs {
+  display: flex;
+  justify-content: space-evenly;
+  height: 30px;
+  width: 155px;
+  border: 2px #d44;
+  background-color: #d44;
+  line-height: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  padding-right: 4px;
+  position: relative;
+}
+.icon-bar {
+  line-height: 30px;
+  font-size: 18px;
+  padding: 8px 5px;
+}
+.h1catalog {
+  font-size: 14px;
+  margin-top: 2px;
+}
+.modals {
+  width: 12.8%;
+  background-color: azure;
+  min-height: 392px;
+  padding: 6px;
+  box-shadow: 8, 16, 8, 32;
+  position: absolute;
+  border: 1px solid lightgray;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 100;
+}
+.maping {
+  padding: 8px 0;
+  /*border-top: 1px solid gray;*/
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  
+
+}
+.maping:last-child {
+  border: 0;
+}
+.categories_name {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  
+}
+
+
+   .link-send {
+    height: 20px;
+  font-size: 12px;
+  padding: 7px;
+  border-radius: 50px;
+  background-color: #d44;
+  border: 1px solid #d44;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 5px;
+}
+.link-send:hover{
+  cursor: pointer;
+}
+.btn-send{
+   font-size: 12px;
+  padding: 7px;
+  border-radius: 50px;
+  background-color: #d44;
+  border: 1px solid #d44;
+  color: #fff;
+  cursor: pointer;
+   margin: 0px 20px;
+  margin-bottom: 40px;
+  
+}
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- end component Catalogs styles-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- */
+
+/* - - - - - - - - - - - - - start Send photo component styles- - - - - - - - - - - - - - - - - - -  */
+.sendPhoto {
+  height: 200px;
+  width: 100%;
+  background-color:#527a9b;
+  align-items: center;
+  padding: 60px;
+  text-align: center;
+}
+.sendPhoto p .link{
+  text-decoration: none;
+  color: #fff;
+}
+.sendPhoto p{
+  color: #fff;
+}
+
+.h1 {
+  font-size: 62px;
+  color: #fff;
+  padding-bottom: 5px;
+}
+.infoRetsept {
+  margin: 40px 20px;
+}
+.label {
+  display: block;
+  padding: 10px;
+  font-size: 24px;
+  color: black;
+}
+.input1 {
+  height: 40px;
+  width: 30%;
+
+}
+.input {
+  height: 40px;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 10px;
+
+}
+.input:focus{
+  outline:none;
+  
+}
+.textArea {
+  width: 100%;
+  height: 200px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+.textArea:focus{
+  outline: none;
+}
+/* -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-the end send photo component styles -/-/-/-/-/-/-/-/-/-/-/-/-/*/
+/* - - - - - - - - - - - - - start Send photoforTablets  styles- - - - - - - - - - - - - - - - - - -  */
+.sendPhotoforTablets {
+  height: 170px;
+  width: 100%;
+  background-color:#527a9b;
+  align-items: center;
+  padding: 60px;
+  text-align: center;
+}
+.sendPhotoforTablets p .linkforTablets{
+  text-decoration: none;
+  color: #fff;
+}
+.sendPhotoforTablets p{
+  color: #fff;
+}
+
+.h1forTablets {
+  font-size:28px;
+  color: #fff;
+  padding-bottom: 5px;
+}
+.infoRetseptforTablets {
+  margin: 40px 20px;
+}
+.labelforTablets {
+  display: block;
+  padding: 10px;
+  font-size: 16px;
+  color: black;
+}
+.input1forTablets {
+  height: 35px;
+  width: 30%;
+
+}
+.inputforTablets {
+  height: 35px;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding:5px;
+
+}
+.inputforTablets:focus{
+  outline:none;
+  
+}
+.textAreaforTablets {
+  width: 100%;
+  height: 270px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 14px;
+  resize: none;
+}
+.textAreaforTablets:focus{
+  outline: none;
+
+}
+.btn-sendforTablets{
+   font-size: 12px;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: #d44;
+  border: 1px solid #d44;
+  color: #fff;
+  cursor: pointer;
+   margin: 0px 20px;
+  margin-bottom: 40px;
+  
+}
+/* -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-the end send photoforTablets styles -/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/* - - - - - - - - - - - - - - - - - start policy component styles - - - - - - - - - - - - - - - - */
+.policy{
+  height: 300px;
+  width: 100%;
+  background-color:#527a9b;
+  align-items: center;
+  padding: 60px;
+  text-align: center;
+}
+
+.policy p {
+  color: #fff;
+  font-size: 18px;
+}
+.policy h1{
+  font-size: 56px;
+
+}
+
+.policy p .link {
+  color: #fff;
+  text-decoration: none;
+}
+.text-policy {
+  margin: 30px 20px;
+  padding: 7px;
+}
+.text-policy p {
+  color: gray;
+  padding: 8px;
+  font-size: 14px;
+}
+.text-policy h1 {
+  padding: 8px;
+  font-size: 18px;
+}
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- the end policy component styles -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-*/
+
+
+/* - - - - - - - - - - - - - - - - - start policy component styles - - - - - - - - - - - - - - - - */
+.policyforTablets{
+  height: 170px;
+  width: 100%;
+  background-color:#527a9b;
+  align-items: center;
+  padding: 60px;
+  text-align: center;
+}
+
+.policyforTablets p {
+  color: #fff;
+  font-size: 12px;
+}
+.policyforTablets h1{
+  font-size: 32px;
+
+}
+
+.policyforTablets p .linkforTablets {
+  color: #fff;
+  text-decoration: none;
+}
+.text-policyforTablets {
+  margin: 10px 20px;
+  padding: 7px;
+}
+.text-policyforTablets p {
+  color: gray;
+  padding: 8px;
+  font-size: 12px;
+}
+.text-policyforTablets h1 {
+  padding:0  8px;
+  font-size: 16px;
+}
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- the end policy component styles -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-*/
+
+/*- - - - - - - - - - - - - - - - - -  start FAQ Component styles- - - - - - - - - - - - - - - - - - */
+.faq {
+  width: 90%;
+  margin: auto;
+  min-height: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.questions {
+  width: 50%;
+  margin: 5px 20px;
+  border-right: 1px solid lightgrey;
+  padding-right: 30px;
+}
+.questions .faq-h {
+  font-size: 18px;
+  padding-bottom: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.question {
+  border-bottom: solid 1px lightgray;
+  border-top: solid 1px lightgray;
+  padding: 10px;
+}
+.question:hover {
+  color: #d44;
+}
+.h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.question p {
+  font-size: 15px;
+  padding: 8px;
+  color: gray;
+}
+.click {
+  cursor: pointer;
+  font-size: 15px;
+}
+.input-faq {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.input-faq:focus{
+  outline: none;
+}
+.inputInfo .faq-h {
+  font-size: 18px;
+}
+.b {
+  border-left: 2px solid lightgrey;
+}
+.inputInfo {
+  margin: 5px 20px;
+  margin-right: 100px;
+}
+.sendBtn {
+  margin: 30px 20px;
+  /*margin-bottom: 40px;*/
+  font-size: 14px;
+  padding: 15px;
+  border-radius: 50px;
+  background-color: #d44;
+  border: 1px solid #d44;
+  color: #fff;
+  cursor: pointer;
+}
+.faq-btn {
+  margin: 30px 20px;
+  /*margin-bottom: 40px;*/
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 50px;
+  background-color: #d44;
+  border: 1px solid #d44;
+  color: #fff;
+  cursor: pointer;
+}
+.label {
+  font-size: 15px;
+}
+
+/*  -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-end FAQ Component styles -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- */
+
+/*- - - - - - - - - - - - - - - - - -  start FAQforTablets styles- - - - - - - - - - - - - - - - - - */
+.faqforTablets {
+  width: 97%;
+  margin: 0 auto;
+  min-height: 600px;
+  /*display: flex;*/
+  /*justify-content: space-between;*/
+  margin-bottom: 50px;
+}
+.questionsforTablets {
+  width: 100%;
+  margin: 5px 0;
+  /*border-right: 1px solid lightgrey;*/
+  padding-right: 30px;
+}
+.questionsforTablets .faq-hforTablets {
+  font-size: 14px;
+  padding-bottom: 10px;
+  /*font-family: 'Source Sans Pro', sans-serif;*/
+}
+.questionforTablets {
+  border-bottom: solid 1px lightgray;
+  /*border-top: solid 1px lightgray;*/
+  width: 100%;
+  padding: 10px;
+}
+.questionforTablets:hover {
+  color: #d44;
+}
+.h2forTablets {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
+  /*font-family: 'Source Sans Pro', sans-serif;*/
+  /*font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;*/
+}
+.questionforTablets p {
+  font-size: 10px;
+  padding: 8px;
+  color: gray;
+}
+.clickforTablets {
+  cursor: pointer;
+  font-size: 12px;
+}
+.input-faqforTablets {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  height: 25px;
+}
+.input-faqforTablets:focus{
+  outline: none;
+}
+   .inputInfoforTablets .faq-hforTablets {
+  font-size: 14px;
+  padding-top: 10px;
+}
+.b {
+  border-left: 2px solid lightgrey;
+}
+.inputInfoforTablets {
+  margin: 5px 20px;
+  margin-right: 100px;
+}
+.sendBtnforTablets {
+  margin: 30px 20px;
+  /*margin-bottom: 40px;*/
+  font-size: 14px;
+  padding: 15px;
+  border-radius: 50px;
+  background-color: #d44;
+  border: 1px solid #d44;
+  color: #fff;
+  cursor: pointer;
+}
+.faq-btnforTablets {
+  margin: 30px 20px;
+  /*margin-bottom: 40px;*/
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 50px;
+  background-color: #d44;
+  border: 1px solid #d44;
+  color: #fff;
+  cursor: pointer;
+}
+.labelforTablets {
+  font-size: 12px;
+}
+ .inputInfoforTablets .textAreaforTablets{
+  height: 150px;
+  resize: none;
+  padding: 8px;
+  font-size: 12px;
+}
+/*  -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-end FAQforTablets styles -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- */
+
+/*  - - - - - - - - - - - - - - start Footer styles - - - - - - - - - - - - - - - - - - */
+.footer {
+  height: 600px;
+  width: 100%;
+  background-color: #243453;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  padding-top: 90px;
+}
+.h1-footer {
+  color: #fff;
+  font-size: 19px;
+}
+.cutLinks {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: #fff;
+}
+.contact {
+  padding: 5px;
+  color: #fff;
+  font-size: 19px;
+}
+.contact:nth-child(even) {
+  color:rgba(245, 245, 245, 0.667);
+}
+.messengers {
+  margin-top: 10px;
+}
+.messengers .icon {
+  color: #fff;
+  font-size: 30px;
+}
+.messengers .icon:hover {
+  font-size: 20px;
+  transition: all 0.5ms;
+}
+/*  -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- the end Footer styles -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- */
+
+/*  - - - - - - - - - - - - - - start Footer styles - - - - - - - - - - - - - - - - - - */
+.afterFooterForTablets{
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  z-index: 1;
+  background-color: #fff;
+  border-top: 1px solid lightgray;
+  bottom: 0;
+  padding: 20px;
+  
+ 
+}
+/*  -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- the end Footer styles -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- */
+
+/* - - - - - - - - - - - - - -  start footerForTablets  styles - - - - - - - - - - - - - - - -*/
+.footerForTablets {
+  height: 500px;
+  width: 100%;
+  background-color: #243453;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  padding-top:20px;
+  margin-bottom: 30px;
+}
+.h1-footerForTablets {
+  color: #fff;
+  font-size: 16px;
+}
+.cutLinksForTablets {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: #fff;
+}
+.contactForTablets {
+  padding: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+.contactForTablets:nth-child(even) {
+  color:rgba(245, 245, 245, 0.667);
+}
+.messengersForTablets {
+  margin-top: 10px;
+}
+.messengersForTablets .iconForTablets {
+  color: #fff;
+  font-size: 30px;
+  padding: 8px;
+}
+.messengersForTablets .iconForTablets:hover {
+  font-size: 20px;
+  transition: all 0.5ms;
+}
+/*  -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- the end FooterForTablets styles -/-/-/-/-/-/-/-/-/-/-/-/-/- */
+
+/* - - - - - - - - - - - - - -  start drugStore component styles - - - - - - - - - - - - - - - - - -*/
+.drug {
+  width: 100%;
+  height: 400px;
+  background-color:#527a9b;
+  text-align: center;
+  padding-top: 30px;
+}
+.drug-categories {
+  padding: 10px 20px;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+   flex-wrap: wrap;
+}
+.drugCatalogs {
+  padding: 20px;
+}
+.select_drugs {
+  width: 95%;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.select-drug {
+  width: 250px;
+  min-height: 300px;
+  border: solid 1px lightgray;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 15px;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+.select-drug:hover {
+  background-color: rgba(255, 255, 255, 0.961);
+  border: 0.5px solid #dde1e4;
+  height: 350px;
+  text-align: center;
+  padding-top: 22px;
+  margin: 22px;
+  border-radius: 12px;
+  /*width: 100%;*/
+  font-size: large;
+  box-shadow: 4px 4px 3px rgba(225, 255, 225, 0), 4px 4px 3px rgba(0, 255, 0, 0),
+    4px 4px 4px rgba(225, 225, 225, 0.4), 9px 9px 9px rgba(0, 0, 0, 0.4);
+}
+
+.img {
+  font-size: 20px;
+  display: flex;
+}
+.p-price{
+  color: #d44;
+}
+.drugs {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+}
+
+.toBasket {
+  text-decoration: none;
+  /*margin: 40px 20px;*/
+  margin-bottom: 40px;
+  font-size: 14px;
+  padding: 3px;
+  border-radius: 50px;
+  background-color: #d44;
+  border: 1px solid #d44;
+  color: #fff;
+  cursor: pointer;
+}
+.drugStoreImg{
+  height: 65px;
+  width: 65px;
+  padding-left: 15px;
+}
+
+/*  -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-end drugStore component styles -/-/-/-/-/-/-/-/-/-/-/-/-/-/- */
+
+/* - - - - - - - - - - - - - - start drugStoreForTablets styles - - - - - - - - - - - - - - - - - - */
+.drugforTablets {
+  width: 100%;
+  height: 100px;
+  background-color:#527a9b;
+  text-align: center;
+  padding-top: 30px;
+  /*margin-left: 300px;*/
+}
+.drugforTablets h1{
+  color: #fff;
+}
+.drug-categoriesforTablets {
+  padding: 10px 20px;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+   flex-wrap: wrap;
+    height: 500px;
+   background-color: #527a9b;
+ 
+
+}
+.categories_ForTablets{
+ display: flex;
+
+}
+.drugStoreImgforTablets{
+  height: 45px;
+  width: 45px;
+  padding-left: 15px;
+}
+.drugCatalogsforTablets {
+  padding:   15px 5px;
+}
+.DropDownForShowCategories {
+  display: flex;
+ /*padding: 5px;*/
+  align-items: center;
+  
+  justify-content: center;
+  cursor: pointer;
+}
+.DropDownForShowCategories h3{
+  /*margin-left:  260px;*/
+  margin-right: 5px;
+  color: #fff;
+}
+.iconDropDownForCategories{
+  color: #fff;
+}
+/*  -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-end drugStoreForTablets styles -/-/-/-/-/-/-/-/-/-/-/-/-/-/- */
+
+/* - - - - - - - - - - - - - - start  review component styles - - - - - - - - - - - - - - - - - - */
+.reviews {
+  width: 70%;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.854);
+  height: 900px;
+  color-scheme: red yellow;
+  padding: 30px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+.raiting {
+  text-align: center;
+  margin: 10px;
+}
+.review {
+  display: flex;
+  justify-content: space-between;
+}
+.review-input {
+  width: 50%;
+  height: 40px;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 10px;
+  border: gray 2px solid;
+}
+.review-input:focus{
+outline: none;
+}
+.review-label {
+  font-size: 20px;
+  color: gray;
+  width: 50%;
+  margin: 15px;
+}
+.review-textarea {
+  width: 50%;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 10px;
+  border: gray 1px solid;
+  font-size: 15px;
+}
+.review-textarea:focus{
+  outline: none;
+}
+.reviews-input {
+  width: 50%;
+  height: 40px;
+  padding: 10px;
+  margin: 15px;
+}
+
+.btn-send1 {
+  margin: 40px 20px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #d44;
+  border: 1px solid #d44;
+  color: #fff;
+  cursor: pointer;
+}
+/*  -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-end review component styles  -/-/-/-/-/-/-/-/-/-/-/-/-/-/- */
+
+/* - - - - - - - - - - - - - - start  reviewForTablets styles - - - - - - - - - - - - - - - - - - */
+.reviewsforTablets {
+  width: 90%;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.854);
+  height: 770px;
+  color-scheme: red yellow;
+  padding: 30px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+.raiting {
+  text-align: center;
+  margin: 10px;
+}
+.reviewforTablets {
+  display: flex;
+  justify-content: space-between;
+}
+.review-inputforTablets {
+  width: 50%;
+  height: 35px;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 10px;
+  border: lightgray 1px solid;
+  font-size: 12px;
+
+}
+.review-inputforTablets:focus{
+outline: none;
+}
+.review-labelforTablets {
+  font-size: 14px;
+  color: gray;
+  width: 50%;
+  margin: 10px;
+}
+.review-textareaforTablets {
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: lightgrey 1px solid;
+  font-size: 12px;
+  height: 200px;
+}
+.review-textareaforTablets:focus{
+  outline: none;
+}
+.reviews-inputforTablets {
+  width: 50%;
+  height: 35px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.btn-send1forTablets {
+  margin: 40px 20px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: #d44;
+  border: 1px solid #d44;
+  color: #fff;
+  cursor: pointer;
+}
+/*  -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-end reviewForTablets styles  -/-/-/-/-/-/-/-/-/-/-/-/-/-/- */
+
+/*  - - - - - - - - - - - - - - start Rate component styles  - - - - - - - - - - - - - - - - - - */
+.cursor_pointer {
+  /*border: 2px solid gold;*/
+  font-size: 28px;
+  padding: 10px;
+  cursor: pointer;
+}
+/*.reviewed {
+  background-image: linear-gradient(
+    0deg,
+    rgba(228, 225, 219, 1),
+    rgba(228, 225, 219, 1)
+  );
+}*/
+/* -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- end Rate component styles -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- */
+
+/* - - - - - - - - - - - - - - - - - - start callBack styles - - - - - - - - - - - - - - - - - -   */
+.callBack {
+  width: 70%;
+  margin: 50px auto;
+  background-color: rgba(255, 255, 255, 0.82);
+  height: 700px;
+  color-scheme: red yellow;
+ padding: 30px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+.callBack h1 {
+  text-align: center;
+}
+.callBack_label {
+  display: block;
+  font-size: 25px;
+  color: gray;
+  padding: 15px;
+}
+.callBack_input {
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+    resize: none;
+}
+.callBack_input:focus{
+  outline: none;
+
+}
+/* -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- end callBack styles  -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- -/-/- */
+
+
+/* - - - - - - - - - - - - - - - - - - start callBackforTablets styles - - - - - - - - - - - - - - - - - -   */
+.callBackforTablets {
+  width: 90%;
+  margin: 50px auto;
+  background-color: rgba(255, 255, 255, 0.82);
+  height: 600px;
+  color-scheme: red yellow;
+ padding: 30px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+.callBackforTablets h1 {
+  text-align: center;
+  /*margin-top: 100px;*/
+}
+.callBack_labelforTablets {
+  display: block;
+  font-size: 16px;
+  color: gray;
+  padding: 8px;
+}
+.callBack_inputforTablets {
+  width: 100%;
+  margin: 9px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.callBack_inputforTablets:focus{
+  outline: none;
+}
+/* -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- end callBackforTablets styles  -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- -/-/- */
+
+/* - - - - - - - - - - - - - - start search component styles - - - - - - - - - - - - - - - - - -*/
+.searchs {
+  position: relative;
+  display: flex; 
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: -20px;
+ 
+}
+
+.search img {
+  height: 70px;
+  width: 70px;
+}
+.search h3 {
+  color: #d44;
+  padding: 0 6px;
+  font-size: 22px;
+  font-family: "Mochiy Pop One", sans-serif;
+  /*margin-top: -40px;*/
+}
+.search {
+  width: 80%;
+ margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height:120px;
+  padding: 0 6px;
+}
+.search-components {
+  position: absolute;
+  width: 41.5%;
+  background-color: rgba(255, 255, 255, 0.973);
+  min-height: 50px;
+  border: 1px solid lightgray;
+  border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  margin-left: 280px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px;
+  z-index: 100;
+  margin-top: -45px;
+}
+.search-img {
+  height: 90px;
+  width: 90px;
+}
+.input-search {
+  height: 30px;
+  width: 70%;
+  border: 1px solid gray;
+  border-radius: 50px;
+  color: gray;
+  position: relative;
+  padding: 0 15px;
+  font-size: 12px;
+}
+.input-search:focus {
+  outline: none;
+}
+.btn-input {
+  height: 31px;
+  width: 35px;
+  border-radius: 50px;
+  margin-left:69.5%;
+  background-color: #d44;
+  border: 2px solid #d44;
+  position: absolute;
+}
+.btn-input:hover{
+  color: gray;
+}
+.icon2 {
+  font-size: 15px;
+  color: #fff;
+
+}
+.icon2:hover{
+  color: lightgray;
+}
+.search-phone {
+  margin-left: 0px;
+
+}
+.search-phone .p-number {
+  color: #d44;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+.search-phone .p2 {
+  color: grey;
+  font-size: 10px;
+  
+}
+.search-icons {
+ display: flex;
+ margin-left: 10px;
+}
+
+.search-icon {
+  font-size:20px;
+  color: grey;
+}
+.search-icon:hover{
+  color: lightgray
+}
+.cartCount{
+  display:flex;
+ 
+}
+
+.countCart{
+  border: 1px solid #d44;
+  background-color: #d44;
+  color: #fff;
+  padding:0 2px;
+  border-radius: 50%;
+  font-size: 10px;
+  height: 13px;
+  margin-left: -5px;
+  margin-top: -3px;
+
+}
+
+.search-icons p{
+  font-size: 18px;
+  color: grey;
+}
+
+.search-price {
+  color: #d44;
+} 
+   
+.search-icons .count-price{
+  font-family: 'Manrope', sans-serif;
+  font-size: 10px;
+  padding-left: 10px;
+  color: black;
+  width: 39px;
+  display: flex;
+}
+.count{
+  color: white;
+}
+/* -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- end search component -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- */
+
+/*---------------------------- start SearchforTable styles----------------------------------- */
+.searchforTable{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid lightgrey;
+  padding: 8px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.searchforTable h3{
+  color: #d44;
+   font-family: "Mochiy Pop One", sans-serif;
+  }
+.searchforTable .phoneForTable p{
+  color: #d44;
+  margin-bottom: -21px;
+    font-family: "Montserrat", sans-serif;
+}
+.searchforTable .textPhoneForTable{
+  font-size: 10px;
+  color: grey;
+}
+.searchforTable .searchBarsForTable:hover{
+  color: grey;
+  cursor: pointer;
+}
+.search-componentForTable{
+  display: flex;
+  text-decoration: none;
+  border-bottom: 1px solid lightgrey;
+  align-items: center;
+}
+.search-imgForTable{
+  height: 50px;
+   width:50px;
+   padding:3px 10px
+}
+.search-nameForTable{
+  /*padding: 10px;*/
+  color: black;
+}
+/* -/-/-/-/-/-/-/-/-/-/-/-/-/-/- the end  SearchforTable styles-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-*/
+ 
+/*---------------------------- start SearchforPhone styles----------------------------------- */
+/* -/-/-/-/-/-/-/-/-/-/-/-/-/-/- the end  SearchforPhone styles-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-*/
+/* - - - - - - - - - - - - - - - - - start Home component styles - - - - - - - - - - - - - -  */
+.category {
+  position: relative;
+}
+ .sliderHeader {
+ position: relative;
+}
+
+.infoAboutSocials {
+  width: 80%;
+  height: 170px;
+  background-color: #243453;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px auto;
+  align-items: center;
+  border-radius: 10px;
+  padding-left: 15px;
+  /*margin-top: -60px;*/
+  margin-top: 55px;
+}
+.seller-img {
+  padding-bottom: 20px;
+  /*padding-right: 160px;*/
+  /*padding-left: 0;*/
+  /*margin-left: 10px;*/
+}
+.seller-img img {
+  width: 180px;
+  height: 180px;
+}
+.content {
+  /*margin-left: -120px;*/
+  /*margin-top: -25px;*/
+  color: #fff;
+}
+.content h1 {
+  padding-bottom: 15px;
+  font-size: 22px;
+}
+.content p{
+  font-size: 12px;
+}
+.social {
+  margin-right: 30px;
+}
+.social button {
+  display: block;
+  margin: 5px;
+  width: 120px;
+  padding: 3px;
+  border-radius: 50px;
+  border: solid #d44 1px;
+  background-color: #d44;
+  color: #fff;
+  font-size: 12px;
+}
+.social button:hover {
+  background-color: #ae3a3b;
+  border: #ae3a3b solid 1px;
+}
+.icons {
+  margin-left: 5px;
+}
+.icon {
+  line-height: 50px;
+  font-size: 25px;
+  padding: 10px 10px;
+}
+.nav {
+  width: 80%;
+  margin: 30px auto;
+  margin-bottom: 130px;
+}
+.nav h1 {
+  border-bottom: #d44 solid 3px;
+  width: 39%;
+  font-size: 24px;
+}
+.slideBody{
+  margin: 20px 0px;
+}
+.nav-food {
+  width: 80%;
+  margin: 30px auto;
+  margin-bottom: 150px;
+}
+.nav-food h1 {
+  border-bottom: #d44 solid 3px;
+  width:29%;
+  font-size: 24px;
+}
+
+.nav-food2 {
+  width: 80%;
+  margin: 10px auto;
+  margin-bottom: 150px;
+}
+.nav-food2 h1 {
+  border-bottom: #d44 solid 3px;
+  width: 33%;
+  font-size: 24px;
+}
+.navs {
+  border-bottom: solid 1px #d44;
+  padding-bottom: 3px;
+  /*width: 300px;*/
+  width: 80%;
+  margin: 20px auto;
+
+}
+.happy{
+  width: 80%;
+  margin: 40px auto;
+  height: 80px;
+  align-items: center;
+  padding-top: 20px;
+  background-color: #f89650;
+  border-radius: 15px;
+}
+.happiness{
+  display:flex;
+  justify-content: space-between;
+  padding:0 40px;
+  align-items: center;
+  color: #fff;
+}
+ .linkToreview {
+  text-decoration: none;
+  border: solid 2px #fff;
+  padding: 5px;
+  font-size: 22px;
+  color: black;
+  border-radius: 50px;
+  background-color: #fff;
+}
+.express-1 {
+  width: 80%;
+  margin: 60px auto;
+  height: 300px;
+  /*background-color: darkslateblue;*/
+}
+.express {
+  display: flex;
+  height: 200px;
+  background-color: #243453;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.dostavka {
+  padding: 30px 35px;
+}
+.dostavka h1 {
+  font-size: 24px;
+  color: #fff;
+
+  padding: 8px 0;
+}
+.dostavka p {
+  color: #fff;
+  padding: 8px 0;
+  font-size: 12px;
+  padding-bottom: 35px;
+}
+.dostavka_Link {
+  padding-top: 10px;
+  text-decoration: none;
+  /*margin: 20px 20px;*/
+  /*margin-bottom: 40px;*/
+  font-size: 12px;
+  padding: 8px;
+  border-radius: 50px;
+  background-color: #d44;
+  border: 1px solid #d44;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.car {
+  width:60%;
+  height: 260px;
+}
+
+.emptyCart{
+  margin-top: 50%;
+  margin-left: 10%;
+  color: #ae3a3b;
+  font-size: 24px;
+  opacity: .8;
+}
+.emptyCartforLaptop{
+   margin-top: 50%;
+  margin-left: 30%;
+  color: #ae3a3b;
+  font-size: 24px;
+  opacity: .8;
+}
+
+/*-/-/-/-/-/-/-/-/- the end Home component styles -/-/-/-/-/-/-/-/-*/
+
+/* - - - - - - - - - - - - - start homeForTablets styles - - - - - - - - - - - - - - - - - - - - */
+.infoAboutSocialsforTablet{
+  width: 95%;
+  height: 230px;
+  background-color: #243453;
+  margin: 0 auto;
+  border-radius: 10px;
+ 
+ 
+}
+.infoAboutSocialsforTablets{
+  width: 100%;
+  height: 40%;
+  background-color: #243453;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  border-radius: 10px;
+  padding-left: 15px;
+ 
+}
+.seller-imgforTablets img{
+  width: 140px;
+  height: 150px;
+  margin-top: -98px;
+  z-index: 1;
+  position: absolute;
+}
+.contentforTablets{
+ margin: 0 30px;
+}
+.contentforTablets h1{
+  font-size: 19px;
+  color: #fff;
+  text-align: center;
+}
+.contentforTablets p{
+font-size: 11px;
+color: #fff;
+text-align: center;
+}
+.socialForTablets {
+margin-top: 30px;
+}
+.socialForTablets button{
+  display: block;
+  width: 95%;
+  margin: 8px auto;
+  border: 1px solid #d44;
+  border-radius: 50px;
+  background-color: #d44;
+  padding: 4px;
+  color: #fff;
+ 
+}
+.iconsForTablets{
+  color: #fff;
+}
+
+.navforTablets {
+  width: 95%;
+  margin: 30px auto;
+  margin-bottom: 130px;
+}
+.navforTablets h1 {
+  border-bottom: #d44 solid 3px;
+  width: 40%;
+  font-size: 18px;
+}
+.nav-foodforTablets {
+  width: 95%;
+  margin: 30px auto;
+  margin-bottom: 150px;
+}
+.nav-foodforTablets h1 {
+  border-bottom: #d44 solid 3px;
+  width:30%;
+  font-size: 18px;
+}
+.nav-food2forTablets {
+  width: 95%;
+  margin: 10px auto;
+  margin-bottom: 150px;
+}
+.nav-food2forTablets h1 {
+  border-bottom: #d44 solid 3px;
+  width: 35%;
+  font-size: 18px;
+}
+.navsforTablets {
+  border-bottom: solid 1px #d44;
+  padding-bottom: 3px;
+  /*width: 300px;*/
+  width: 95%;
+  margin: 20px auto;
+
+}
+.happyforTablets{
+  width: 95%;
+  margin: 40px auto;
+  height: 60px;
+  align-items: center;
+  padding-top: 15px;
+  background-color: #f89650;
+  border-radius: 15px;
+
+}
+.happinessforTablets{
+  display:flex;
+  justify-content: space-between;
+  padding:0 20px;
+  align-items: center;
+  color: #fff;
+
+}
+.happinessforTablets h1{
+  font-size: 18px;
+}
+ .linkToreviewForTablets  {
+  text-decoration: none;
+  border: solid 2px #fff;
+  padding: 5px;
+  font-size: 14px;
+  color: black;
+  border-radius: 50px;
+  background-color: #fff;
+}
+.express-1forTablets {
+  width: 95%;
+  margin: 30px auto;
+  height: 190px;
+}
+.expressforTablets {
+  display: flex;
+  height: 190px;
+  background-color:#527a9b;
+  border-radius: 15px;
+
+}
+.dostavkaforTablets {
+  padding: 30px 40px;
+}
+.dostavkaforTablets h1 {
+  font-size: 20px;
+  color: #fff;
+}
+.dostavkaforTablets p {
+  color: #fff;
+  padding:  10px 0;
+  font-size: 12px;
+  padding-bottom: 15px;
+}
+.dostavka_LinkforTablets {
+  padding-top: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 6px;
+  border-radius: 50px;
+  background-color: #d44;
+  border: 1px solid #d44;
+  color: #fff;
+  cursor: pointer;
+}
+.carforTablets {
+  width: 35%;
+  height: 130px;
+  margin-top: 40px;
+}
+/*-/-/-/-/-/-/-/-/- the end homeForTablets component styles -/-/-/-/-/-/-/-/-*/
+/* - - - - - - - - - - - - - start slide styles - - - - - - - - - - - - - - - - - - - - */
+.slide {
+  width: 85%;
+  height: 95%;
+  margin: auto;
+}
+.img {
+  text-align: center;
+  height: 100px;
+  width: 100px;
+}
+.searchComponent {
+  height: 120px;
+  width: 100%;
+  margin-top: 30px;
+
+  display: flex;
+  justify-content: space-around;
+}
+.searchComponent input {
+  height: 37px;
+  width: 600px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-color: grey;
+}
+.searchComponent button {
+  height: 37px;
+  width: 40px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.image-modal {
+  min-height: 300px;
+  width: 300px;
+  padding: 20px;
+  background-color: powderblue;
+  box-shadow: 8px 12px 16px 22px 26px;
+  margin: 10px;
+}
+.market {
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

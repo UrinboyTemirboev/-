@@ -1,0 +1,330 @@
+/* - - - - - - - - - - - - - - - - - - - - start modal styles for basket - - - - - - - - - - - - -  */
+.modal{
+    width:120%;
+    position: fixed;
+    top:0;
+    /*left:0;*/
+    right:-15px;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display:flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 0;
+    transition: all .90s ease;
+
+}
+.modal-content{
+    width: 25%;
+    background-color:#fff;
+    height: 100%;
+    border: 15px;
+    margin: 15px;
+    /*overflow-x: hidden;*/
+}
+.modal-header{
+ 
+padding: 10px;
+display: flex;
+justify-content: space-between;
+width: 80%;
+margin:0 auto;
+border-bottom: 1px solid lightgrey;
+z-index: 1000;
+top:0;
+width: 100%;
+background-color: lightgray;
+   }
+   .modal-headerforTablet{
+ 
+padding: 10px;
+display: flex;
+justify-content: space-between;
+width: 80%;
+margin:0 auto;
+border-bottom: 1px solid lightgrey;
+z-index: 1000;
+top:0;
+width: 100%;
+background-color: lightgray;
+   }
+   .modal-headerforTablet h1{
+    font-size: 18px;
+   }
+   .modal-headerforTablet p{
+    font-size: 14px;
+    color: #d44;
+   }
+   .x-markforTablet{
+    width: 25px;
+    height: 20x;
+    color: #d44;
+}
+ 
+.img-bodyInfosforTablate{
+    
+    width:100%;
+    max-height: 395px;
+    overflow-x:hidden;
+    align-items: center;
+    margin-bottom: 80px;
+    
+    
+    
+}
+.img-bodyInfo{
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+}
+.img-bodyInfoforTablet{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+}
+.modal-bodyInfo {
+    margin-top:-35px;
+}
+
+
+
+.modal-footer{
+    height:80px;
+    width: 370px;
+    position: fixed;
+    z-index: 1000;
+    bottom:0;
+    border-top: 1px solid lightgray;
+    background-color: lightgrey;
+}
+.modal-footerforTablet{
+     height:80px;
+    width: 220px;
+    position: fixed;
+    z-index: 100;
+    bottom: 40px;
+    border-top: 1px solid lightgray;
+    background-color: lightgray;
+}
+.lastCountforTbalet{
+    /*text-align: center;*/
+    margin: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.lastCount{
+    /*text-align: center;*/
+    margin: 10px 30px;
+    display: flex;
+    justify-content: space-between;}
+.close{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.closeforTablet{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+.close p{
+    font-size: 20px;
+    padding-left: 3px;
+}
+.close:hover{
+    
+    color: grey;
+    cursor: pointer;
+}
+.modal-body{
+
+}
+.modal-body img{
+    height:50px;
+    width: 50px;
+}
+/*.modal-img{
+    width:400px;
+    height:400px;
+}*/
+.modal-bodyInfo{
+    padding-top: 60px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    width: 450px;
+    
+}
+.info h2{
+    color:black;
+
+ 
+}
+.info h3{
+    color: green;
+}
+.info p{
+    color: #d44;
+    font-size: 18px;
+}
+.sendTobasket{
+    text-decoration: none;
+    padding: 7px;
+    border:1px solid #d44;
+    border-radius: 50px;
+    margin: 15px ;
+    background-color: #d44;
+    color: #fff;
+
+}
+.sendTobasketforTablet{
+    text-align: center;
+      text-decoration: none;
+    padding: 4px;
+    border:1px solid #d44;
+    border-radius: 50px;
+    margin: 15px ;
+    background-color: #d44;
+    color: #fff;
+    font-size: 13px;
+}
+
+.x-mark{
+    width: 25px;
+    height: 20x;
+}
+.x-mark:hover{
+    cursor: pointer;
+    color: #d44;
+}
+.img-bodyInfos{
+   min-height: 200px;
+    width: 100%;
+}
+.imgInBasket{
+    width: 70px;
+    height: 70px;
+    padding-top: 10px;
+}
+/* -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- the end modal styles for basket -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- */
+ table{
+    transition: linear;
+    transform: scaleX();
+    transition-timing-function: calc(3);
+ }
+/* - - - - - - - - - - - - - - - - - - - - start modal styles for bars - - - - - - - - - - - - -  */
+
+.modalBarsForTable{
+    width:100%;
+    position: fixed;
+    top:-17px;
+    left:-15px;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: left;
+    z-index: 100;
+   
+
+}
+.modal-contentforTable{
+    width: 37%;
+    padding-top: 12px;
+    background-color:#fff;
+    height: 100%;
+    margin: 15px;
+    
+     
+}
+.partInpunForTable{
+    width: 100%;
+   padding: 0 10px;
+   /*position: relative;*/
+}
+.search-componentsForTable{
+
+    width: 100%;
+    max-height: 100px;
+    overflow-x: hidden;
+
+}
+.partInpunForTable input{
+    width: 100%;
+    padding: 3px;
+    font-size: 12px;
+    border: 1px solid lightgray;
+    position: relative;
+    
+}
+
+.partInpunForTable input:focus{
+    outline: none;
+    
+}
+
+.SearchIconForTable{
+ position: absolute;
+ margin-left: -21px;
+ font-size: 12px;
+ border: 1px solid #d44;
+ color: #fff;
+ background-color: #d44;
+ padding: 4px;
+ /*border-radius: 50px;*/
+}
+.searchSectionsForTable{
+    display: flex;
+    width: 100%;
+     padding: 0 10px;
+
+}
+.searchSectionsForTable p{
+    padding: 3px;
+    width: 50%;
+    border: 1px solid lightgrey;
+    background-color: lightgrey;
+    cursor: pointer;
+}
+.searchBottomBorder::before{
+    transform: scaleX(0);
+    transform-origin:left ;
+    transition: transform 1s;
+}
+.searchBottomBorder::after{
+    transform: scaleX(1);
+    transform-origin:right ;
+}
+.catalogForTable{
+    width: 100%;
+    padding: 3px 0;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.catalogForTable:hover{
+    background-color: lightgray;
+    cursor: pointer;
+    color:coral;
+}
+.linkForTableBar{
+    display: block;
+       width: 100%;
+    padding: 5px ;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+}
+
+/* -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- the end modal styles for bars -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- */

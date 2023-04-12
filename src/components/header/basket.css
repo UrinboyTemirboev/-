@@ -1,0 +1,267 @@
+     /* - - - - - - - - - - - - - - - start basket component styles - - - - - - - - - - - - - - */
+.decor{
+    height: 100px;
+    width: 100%;
+    background-color: cadetblue;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+.decor h1{
+    font-size: 22px;
+   
+}
+.arrowRight{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 60px;
+}
+.sell-drug{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    
+}
+.infoAboutCustomer{
+    width: 100%;
+    margin:20px auto;
+}
+.necessarily{
+    display: flex;
+    font-size: 20px;
+  
+}
+.necessarily p{
+    color: red;
+}
+.input-infoAboutCustomer{
+    width: 500px;
+    margin: 15px 0;
+    min-height: 40px;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+.textArea-infoAboutCustomer{
+   width: 500px;
+   margin: 15px 0;
+   height:300px;
+   border-radius: 10px;
+   padding: 15px;
+}
+.label-infoAboutCustomer{
+    display: block;
+    font-size: 22px;
+    color: gray;
+}
+.dostavka-p{
+    color: black;
+    width: 200px;
+    padding: 15px;
+}
+.the-endProduct{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    
+}
+.the-endProduct{
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    padding: 15px;
+}
+.the-h4{
+    padding-top: 50px;
+}
+.infoAboutDecor h1{
+    text-align: center;
+}
+.infoAboutDecor {
+    border-radius: 10px;
+    background-color: lightgray;
+    margin: 40px 80px;
+    min-height: 670px;
+}
+.the-endProducts{
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px;
+}
+.pay{
+    border: #fff;
+    background-color: #fff;
+    margin: 15px;
+    padding: 5px;
+    width: 350px;
+    color: gray;
+
+}
+.infoAboutDecor p{
+    margin-left: 20px;
+}
+.infoAboutDecor .sendInfo{
+    color: gray;
+    border-top: gray 1px solid;
+    margin-bottom: 15px;
+}
+.button_dostavk{
+     border: solid 1px #d44;
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 5px;
+      margin-left: 140px;
+      background-color: #d44;
+      border-radius: 50px;
+
+}
+
+/* -/-/-/-/-/-/-/-/-/-/-/-/-/- the end basket component styles -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- */
+
+
+
+ /* - - - - - - - - - - - - - - - start basketforTablet  styles - - - - - - - - - - - - - - */
+.decorforTablet{
+    height: 100px;
+    width: 95%;
+    margin: 20px auto;
+    background-color: cadetblue;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    /*padding: 20px;*/
+    align-items: center;
+    margin-bottom: 30px;
+
+
+}
+.decorforTablet h1{
+    font-size: 22px;
+   
+}
+.arrowRightforTablet{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 60px;
+}
+.sell-drugforTablet{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    
+}
+.infoAboutCustomerforTablet{
+    width: 100%;
+    margin:20px auto;
+}
+.necessarilyforTablet{
+    display: flex;
+    font-size: 16px;
+  
+}
+.necessarilyforTablet p{
+    color: red;
+}
+.input-infoAboutCustomerforTablet{
+    width: 250px;
+    margin: 15px 0;
+    min-height: 30px;
+    border-radius: 10px;
+    padding: 0 10px;
+    border: 1px solid lightgray;
+}
+.input-infoAboutCustomerforTablet:focus{
+    outline: none;
+}
+.textArea-infoAboutCustomerforTablet{
+   width: 250px;
+   margin: 15px 0;
+   height:300px;
+   border-radius: 10px;
+   padding: 8px;
+   resize: none;
+}
+.label-infoAboutCustomerforTablet{
+    display: block;
+    font-size: 16px;
+    color: gray;
+}
+.dostavka-pforTablet{
+    color: black;
+    width: 200px;
+    padding: 15px;
+}
+.the-endProductforTablet{
+    display: flex;
+    /*width: 400px;*/
+    justify-content: space-between;
+    
+}
+.the-endProductforTablet{
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    padding: 15px;
+}
+.the-h4{
+    padding-top: 50px;
+}
+.infoAboutDecor h1{
+    text-align: center;
+}
+.infoAboutDecor {
+    width: 50%;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin: 40px 80px;
+    min-height: 670px;
+}
+.the-endProducts{
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px;
+}
+.pay{
+    border: #fff;
+    background-color: #fff;
+    margin: 15px;
+    padding: 5px;
+    width: 290px;
+    color: gray;
+
+}
+.infoAboutDecor p{
+    margin-left: 20px;
+}
+.infoAboutDecor .sendInfo{
+    color: gray;
+    border-top: gray 1px solid;
+    margin-bottom: 15px;
+}
+.button_dostavkforTablet{
+     border: solid 1px #d44;
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 5px;
+      margin-left: 70px;
+      background-color: #d44;
+      border-radius: 50px;
+
+}
+.no-product{
+    text-align: center;
+    text-decoration: none;
+    font-size: 26px;
+    color: #d44;
+    opacity: .7;
+    margin:70px 0;
+     margin-left: 30%;
+
+}
+
+/* -/-/-/-/-/-/-/-/-/-/-/-/-/- the end basketforTablet styles -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- */
